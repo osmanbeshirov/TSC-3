@@ -31,6 +31,7 @@
 // z = true;
 // z = false;
 
+
 // let myStrArray: string[];
 // myStrArray = ['a', 'b', 'c']
 
@@ -39,3 +40,7 @@
 // enum Color { Purple, Black, Red }
 // let bgColor = Color.Red;
 // bgColor = Color.Purple;
+
+//tuple type
+// let error: [string, number];
+// error = ['not found', 404]

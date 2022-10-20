@@ -66,3 +66,18 @@ a = true;
 //daha oncesinde a deyisenine boolean tipi teyin edildiyi ucun, unknown teyin etdiyimiz deyiseni
 //boolean tipi olaraq teyin etdiyimiz deyisene mensub etmek olmur.
 // a = y
+
+
+//Type Assertions - Typescript shut up!!!
+// let message;
+
+// message = 'kenan'
+//first method
+// const newMessage = (<string>message)
+
+//second method
+// const newMessage = (message as string).toUpperCase()
+
+// console.log(newMessage)
+
+

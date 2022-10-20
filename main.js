@@ -1,3 +1,4 @@
+"use strict";
 // const sayHello = (message: string) => {
 //     console.log(message)
 // }
@@ -24,5 +25,31 @@
 // let z: boolean;
 // z = true;
 // z = false;
-var myStrArray;
-myStrArray = ['a', 'b', 'c'];
+// let myStrArray: string[];
+// myStrArray = ['a', 'b', 'c']
+// enum Color { Purple, Black, Red }
+// let bgColor = Color.Red;
+// bgColor = Color.Purple;
+//tuple type
+// let error: [string, number];
+// error = ['not found', 404]
+let a;
+a = true;
+// let x: string;
+// let b: unknown;
+// x = b
+// let b: boolean;
+// let x: any;
+// b = x
+// let y: unknown;
+//daha oncesinde a deyisenine boolean tipi teyin edildiyi ucun, unknown teyin etdiyimiz deyiseni
+//boolean tipi olaraq teyin etdiyimiz deyisene mensub etmek olmur.
+// a = y
+//Type Assertions - Typescript shut up!!!
+let message;
+message = 'kenan';
+//first method
+// const newMessage = (<string>message)
+//second method
+const newMessage = message.toUpperCase();
+console.log(newMessage);

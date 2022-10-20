@@ -1,4 +1,3 @@
-"use strict";
 // const sayHello = (message: string) => {
 //     console.log(message)
 // }
@@ -33,7 +32,7 @@
 //tuple type
 // let error: [string, number];
 // error = ['not found', 404]
-let a;
+var a;
 a = true;
 // let x: string;
 // let b: unknown;
@@ -46,10 +45,29 @@ a = true;
 //boolean tipi olaraq teyin etdiyimiz deyisene mensub etmek olmur.
 // a = y
 //Type Assertions - Typescript shut up!!!
-let message;
-message = 'kenan';
+// let message;
+// message = 'kenan'
 //first method
 // const newMessage = (<string>message)
 //second method
-const newMessage = message.toUpperCase();
-console.log(newMessage);
+// const newMessage = (message as string).toUpperCase()
+// console.log(newMessage)
+//object type
+//method 1
+// let user: {
+//     name: string;
+//     age: number;
+//     job: string
+// } = {
+//     name: 'Osman',
+//     age: 22,
+//     job: 'Developer'
+// }
+//method 2;
+var user;
+user = {
+    name: 'Osman',
+    age: 21,
+    job: "Developer"
+};
+console.log(user);

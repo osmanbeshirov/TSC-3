@@ -81,3 +81,31 @@ a = true;
 // console.log(newMessage)
 
 
+//object type
+
+//method 1
+// let user: {
+//     name: string;
+//     age: number;
+//     job: string
+// } = {
+//     name: 'Osman',
+//     age: 22,
+//     job: 'Developer'
+// }
+
+//method 2;
+// let user: {
+//     name: string;
+//     age: number;
+//     job: string
+// }
+
+// user = {
+//     name: 'Osman',
+//     age: 21,
+//     job: "Developer"
+
+// }
+
+

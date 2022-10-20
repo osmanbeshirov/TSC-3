@@ -31,7 +31,11 @@
 // z = true;
 // z = false;
 
-let myStrArray: string[];
-myStrArray = ['a', 'b', 'c']
+// let myStrArray: string[];
+// myStrArray = ['a', 'b', 'c']
 
 
+
+// enum Color { Purple, Black, Red }
+// let bgColor = Color.Red;
+// bgColor = Color.Purple;

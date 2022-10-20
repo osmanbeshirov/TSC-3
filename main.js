@@ -34,40 +34,14 @@
 // error = ['not found', 404]
 var a;
 a = true;
-// let x: string;
-// let b: unknown;
-// x = b
-// let b: boolean;
-// let x: any;
-// b = x
-// let y: unknown;
-//daha oncesinde a deyisenine boolean tipi teyin edildiyi ucun, unknown teyin etdiyimiz deyiseni
-//boolean tipi olaraq teyin etdiyimiz deyisene mensub etmek olmur.
-// a = y
-//Type Assertions - Typescript shut up!!!
-// let message;
-// message = 'kenan'
-//first method
-// const newMessage = (<string>message)
-//second method
-// const newMessage = (message as string).toUpperCase()
-// console.log(newMessage)
-//object type
-//method 1
-// let user: {
-//     name: string;
-//     age: number;
-//     job: string
-// } = {
-//     name: 'Osman',
-//     age: 22,
-//     job: 'Developer'
-// }
-//method 2;
 var user;
 user = {
     name: 'Osman',
-    age: 21,
-    job: "Developer"
+    age: '23',
+    role: 'admin',
+    color: {
+        hex: '#9999',
+        name: 'Black'
+    }
 };
 console.log(user);

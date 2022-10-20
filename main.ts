@@ -109,17 +109,42 @@ a = true;
 // }
 
 //union types
-let user: {
-    name: string;
-    age: number | string;  //union type
-    role: 'admin' | 'user' // literal type
-}
+// let user: {
+//     name: string;
+//     age: number | string;  //union type
+//     role: 'admin' | 'user' // literal type
+// }
 
-user = {
-    name: 'Osman',
-    age: '23',
-    role: 'admin'
-}
+// user = {
+//     name: 'Osman',
+//     age: '23',
+//     role: 'admin'
+// }
 
 
+//Custom types
+// type Color = {
+//     name: string,
+//     hex: string
+// }
+
+// let user: {
+//     name: string;
+//     age: string | number;
+//     role: 'admin' | 'user';
+//     color: Color
+// }
+
+// user = {
+//     name: 'Osman',
+//     age: '23',
+//     role: 'admin',
+//     color: {
+//         hex: '#9999',
+//         name: 'Black'
+//     }
+// }
+
+
+// console.log(user)
 

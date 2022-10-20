@@ -44,3 +44,25 @@
 //tuple type
 // let error: [string, number];
 // error = ['not found', 404]
+
+
+let a: boolean;
+a = true;
+
+
+
+
+// let x: string;
+// let b: unknown;
+
+// x = b
+
+// let b: boolean;
+// let x: any;
+
+// b = x
+
+// let y: unknown;
+//daha oncesinde a deyisenine boolean tipi teyin edildiyi ucun, unknown teyin etdiyimiz deyiseni
+//boolean tipi olaraq teyin etdiyimiz deyisene mensub etmek olmur.
+// a = y

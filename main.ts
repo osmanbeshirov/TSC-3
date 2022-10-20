@@ -108,4 +108,18 @@ a = true;
 
 // }
 
+//union types
+let user: {
+    name: string;
+    age: number | string;  //union type
+    role: 'admin' | 'user' // literal type
+}
+
+user = {
+    name: 'Osman',
+    age: '23',
+    role: 'admin'
+}
+
+
 

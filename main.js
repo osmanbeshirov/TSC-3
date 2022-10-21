@@ -107,13 +107,22 @@
 // }
 // console.log(user)
 //Functions
+// const add = (num1: number, num2: number): boolean => {
+//     if (num1 + num2 > 10) {
+//         return true
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// console.log(add(5, 2))
 //Default, Optional params
-var add = function (num1, num2) {
-    if (num1 + num2 > 10) {
-        return true;
-    }
-    else {
-        return false;
-    }
+// const logUser = (firstName: string, lastName?: string) => {  //optioanl params
+//     console.log(`${firstName}  ${lastName}`)
+// }
+// logUser('Osman');
+var logUser = function (firstName, lastName) {
+    if (lastName === void 0) { lastName = 'Bashirov'; }
+    console.log("".concat(firstName, "  ").concat(lastName));
 };
-console.log(add(5, 2));
+logUser('Osman');

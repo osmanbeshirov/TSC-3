@@ -257,3 +257,28 @@
 // console.log(newEmployee)
 
 
+
+//IMPLEMENTİNG INTERFACES
+// interface IEmployee {
+//     empCode: number;
+//     name: string;
+//     age: number;
+//     getSalary: (num: number) => number
+// }
+
+// class Employee implements IEmployee {
+//     empCode: number;
+//     name: string;
+//     age: number;
+
+//     constructor(empCode: number, name: string, age?: number) { }
+
+//     getSalary = (empCode: number) => {
+//         return 1000;
+//     }
+// }
+
+// let newEmployee = new Employee(243, "Kanan", 34);
+
+// console.log(newEmployee.getSalary(2))
+

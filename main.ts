@@ -177,3 +177,11 @@
 // }
 
 // logUser('Osman')
+
+
+
+// const logUser = (firstName: 'Osman' | 'Kanan', lastName: string | number) => {  //union and literal types can be also in ts functions params
+//     console.log(`${firstName}  ${lastName}`)
+// }
+
+// logUser('Kanan', 12)

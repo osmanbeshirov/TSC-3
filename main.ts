@@ -185,3 +185,36 @@
 // }
 
 // logUser('Kanan', 12)
+
+// type User = {
+//     name: string,
+//     surname: string,
+//     gender: 'man' | 'women'
+// }
+
+type User = {
+    name: string,
+    surname: string,
+    gender: 'man' | 'woman'
+}
+
+let user: {
+    name: string;
+    surname: string;
+    gender: 'man' | 'woman'
+}
+
+user = {
+    name: 'Osman',
+    surname: 'Bashirov',
+    gender: 'man'
+}
+
+const logUser = (person: User) => {  //custom type also can be work in the functional scope like params
+    return person;
+}
+
+console.log(logUser(user))
+
+
+

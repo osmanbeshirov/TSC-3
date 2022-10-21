@@ -32,16 +32,88 @@
 //tuple type
 // let error: [string, number];
 // error = ['not found', 404]
-var a;
-a = true;
-var user;
-user = {
-    name: 'Osman',
-    age: '23',
-    role: 'admin',
-    color: {
-        hex: '#9999',
-        name: 'Black'
+// let a: boolean;
+// a = true;
+// let x: string;
+// let b: unknown;
+// x = b
+// let b: boolean;
+// let x: any;
+// b = x
+// let y: unknown;
+//daha oncesinde a deyisenine boolean tipi teyin edildiyi ucun, unknown teyin etdiyimiz deyiseni
+//boolean tipi olaraq teyin etdiyimiz deyisene mensub etmek olmur.
+// a = y
+//Type Assertions - Typescript shut up!!!
+// let message;
+// message = 'kenan'
+//first method
+// const newMessage = (<string>message)
+//second method
+// const newMessage = (message as string).toUpperCase()
+// console.log(newMessage)
+//object type
+//method 1
+// let user: {
+//     name: string;
+//     age: number;
+//     job: string
+// } = {
+//     name: 'Osman',
+//     age: 22,
+//     job: 'Developer'
+// }
+//method 2;
+// let user: {
+//     name: string;
+//     age: number;
+//     job: string
+// }
+// user = {
+//     name: 'Osman',
+//     age: 21,
+//     job: "Developer"
+// }
+//union types
+// let user: {
+//     name: string;
+//     age: number | string;  //union type
+//     role: 'admin' | 'user' // literal type
+// }
+// user = {
+//     name: 'Osman',
+//     age: '23',
+//     role: 'admin'
+// }
+//Custom types
+// type Color = {
+//     name: string,
+//     hex: string
+// }
+// let user: {
+//     name: string;
+//     age: string | number;
+//     role: 'admin' | 'user';
+//     color: Color
+// }
+// user = {
+//     name: 'Osman',
+//     age: '23',
+//     role: 'admin',
+//     color: {
+//         hex: '#2s3123',
+//         name: 'purple'
+//     }
+// }
+// console.log(user)
+//Functions
+//Default, Optional params
+var add = function (num1, num2) {
+    if (num1 + num2 > 10) {
+        return true;
+    }
+    else {
+        return false;
     }
 };
-console.log(user);
+console.log(add(5, 2));

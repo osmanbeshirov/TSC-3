@@ -46,9 +46,8 @@
 // error = ['not found', 404]
 
 
-let a: boolean;
-a = true;
-
+// let a: boolean;
+// a = true;
 
 
 
@@ -140,11 +139,26 @@ a = true;
 //     age: '23',
 //     role: 'admin',
 //     color: {
-//         hex: '#9999',
-//         name: 'Black'
+//         hex: '#2s3123',
+//         name: 'purple'
 //     }
 // }
 
 
 // console.log(user)
 
+
+
+//Functions
+//Default, Optional params
+
+const add = (num1: number, num2: number): boolean => {
+    if (num1 + num2 > 10) {
+        return true
+    }
+    else {
+        return false;
+    }
+}
+
+console.log(add(5, 2))

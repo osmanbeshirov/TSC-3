@@ -1,13 +1,9 @@
 // const sayHello = (message: string) => {
 //     console.log(message)
 // }
-var user;
-user = {
+var newEmployee;
+newEmployee = {
     name: 'Osman',
-    surname: 'Bashirov',
-    gender: 'man'
+    code: 1
 };
-var logUser = function (person) {
-    return person;
-};
-console.log(logUser(user));
+console.log(newEmployee);

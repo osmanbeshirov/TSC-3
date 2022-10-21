@@ -192,29 +192,46 @@
 //     gender: 'man' | 'women'
 // }
 
-type User = {
-    name: string,
-    surname: string,
-    gender: 'man' | 'woman'
-}
+// type User = {
+//     name: string,
+//     surname: string,
+//     gender: 'man' | 'woman'
+// }
 
-let user: {
-    name: string;
-    surname: string;
-    gender: 'man' | 'woman'
-}
+// let user: {
+//     name: string;
+//     surname: string;
+//     gender: 'man' | 'woman'
+// }
 
-user = {
-    name: 'Osman',
-    surname: 'Bashirov',
-    gender: 'man'
-}
+// user = {
+//     name: 'Osman',
+//     surname: 'Bashirov',
+//     gender: 'man'
+// }
 
-const logUser = (person: User) => {  //custom type also can be work in the functional scope like params
-    return person;
-}
+// const logUser = (person: User) => {  //custom type also can be work in the functional scope like params
+//     return person;
+// }
 
-console.log(logUser(user))
+// console.log(logUser(user))
 
+
+//INTERFACES IN TYSPESCRIPT
+
+// interface Employee {
+//     readonly code: 1 | 0; //readonly var deye sonradan object daxilinde bu deyisene mensub etdiyimiz deyiseni deyise bilmerik
+//     name: string;
+//     age?: number; //sual isaresi var deye bu deyisene object daxilinde deyer oturmesek bele TS error vermeyecek
+// }
+
+// let newEmployee: Employee;
+
+// newEmployee = {
+//     name: 'Osman',
+//     code: 1
+// }
+
+// console.log(newEmployee)
 
 

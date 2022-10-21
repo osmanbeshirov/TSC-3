@@ -1,9 +1,10 @@
 // const sayHello = (message: string) => {
 //     console.log(message)
 // }
-var newEmployee;
-newEmployee = {
-    name: 'Osman',
-    code: 1
+var newEmployee = {
+    name: "Osman",
+    age: 21,
+    personalCode: '0',
+    experienceYear: '5 years'
 };
 console.log(newEmployee);

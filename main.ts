@@ -235,3 +235,25 @@
 // console.log(newEmployee)
 
 
+
+//EXTENDING INTERFACES
+
+// interface Person {
+//     name: string;
+//     age?: number
+// }
+
+// interface Employee extends Person {
+//     personalCode: 1 | 0 | "1" | "0";
+//     experienceYear: number | string;
+// }
+
+// let newEmployee: Employee = {
+//     name: "Osman",
+//     personalCode: '1',
+//     experienceYear: '5 years'
+// }
+
+// console.log(newEmployee)
+
+
